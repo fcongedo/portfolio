@@ -59,7 +59,6 @@ a {
     padding: 20px;
     text-align: center;
     font-family: "Rubik Mono One"
-
 }
 footer {
     background: black;
@@ -74,5 +73,5 @@ footer {
 }
 
 #contact-section {
-    background-image: url(/imagenes/cardImageLeftold.jpg) /* Ruta de la imagen de fondo */
+    background-image: url(imagenes/cardImageLeftold.jpg) /* Ruta de la imagen de fondo */
 }
