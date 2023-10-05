@@ -66,7 +66,7 @@ footer {
     padding: 20px 0;
     color: var(--main-color);
     margin-top: 40px;
-  }
+  
 .redes a i.icono-mediano:hover {
     transform: scale(1.2); /* Cambia el valor según tu preferencia */
   }
@@ -88,7 +88,7 @@ footer {
         font-size: 24px; /* Tamaño mediano */
         color:darkgray;
     }
-
+}
 .home {
     background-image: url(imagenes/cardImageLeftold.jpg) /* Ruta de la imagen de fondo home */
     
