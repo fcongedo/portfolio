@@ -66,28 +66,34 @@ footer {
     padding: 20px 0;
     color: var(--main-color);
     margin-top: 40px;
-  
+    text-align: center; /* Añade esta línea para centrar todo el contenido del footer */
+}
+
+/* Resto de tus estilos CSS */
+.center-text {
+    text-align: center;
+}
+
 .redes a i.icono-mediano:hover {
     transform: scale(1.2); /* Cambia el valor según tu preferencia */
-  }
-  /* Cambiar el color de los íconos de redes sociales cuando se pasa el cursor sobre ellos */
+}
+
+/* Cambiar el color de los íconos de redes sociales cuando se pasa el cursor sobre ellos */
 .redes a:hover i {
     color: #f96062; /* Cambia al color deseado cuando se pasa el cursor sobre los íconos */
 }
 
-  
-    .redes {
-        text-align: center; /* Alinea el contenido del div a la derecha */
-    }
-    
-    .redes a {
-        margin-right: 10px; /* Agrega margen a la izquierda de cada enlace */
-    }
-    
-    .redes .icono-mediano { 
-        font-size: 24px; /* Tamaño mediano */
-        color:darkgray;
-    }
+.redes {
+    text-align: center; /* Alinea el contenido del div a la derecha */
+}
+
+.redes a {
+    margin-right: 10px; /* Agrega margen a la izquierda de cada enlace */
+}
+
+.redes .icono-mediano {
+    font-size: 24px; /* Tamaño mediano */
+    color: darkgray;
 }
 .home {
     background-image: url(imagenes/cardImageLeftold.jpg) /* Ruta de la imagen de fondo home */
